@@ -1,4 +1,7 @@
 import flet as ft # type: ignore
+ 
+ 
+ # Mauricio Aires
 
 def main(pagina):
     texto = ft.Text("Hashzap")
@@ -59,4 +62,5 @@ def main(pagina):
     pagina.add(botao_iniciar)
     
 ft.app(target=main, view=ft.WEB_BROWSER)
+
     
